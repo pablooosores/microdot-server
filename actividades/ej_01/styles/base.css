@@ -2,7 +2,7 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f0f8ff;
+    background-color: #ffff00;
     color: #000080;
 }
 
@@ -19,6 +19,12 @@ header h1 {
 
 main {
     min-height: 70vh;
+    .contenedor-flex {
+  display: flex;
+  flex-direction : column;
+  justify-content: center; /* Alinea horizontalmente al centro */
+  align-items: center; /* Alinea verticalmente al centro */
+}
 }
 
 footer {
