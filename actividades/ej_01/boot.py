@@ -3,10 +3,6 @@ from microdot import send_file
 
 app = Microdot()
 
-@app.route('/')
-async def index(request):
-    return 'Hello, world!'
-
 @app.get('index.html')
 async def index(request):
     return send_file('/index.html')
